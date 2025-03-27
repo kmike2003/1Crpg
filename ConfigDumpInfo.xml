@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.19">
+	<ConfigVersions>
+		<Metadata name="AccumulationRegister.РегистрПредметов" id="cd82aaa6-8feb-44e7-a0d2-af748d90420f" configVersion="5ae2b16ff10cb4469cfa1895e27d4f1600000000">
+			<Metadata name="AccumulationRegister.РегистрПредметов.Dimension.Игрок" id="219f6de0-3f32-4dd9-9d89-61de537f8991"/>
+			<Metadata name="AccumulationRegister.РегистрПредметов.Dimension.Предмет" id="b09eb418-3a6d-4ad3-816c-4470cada2466"/>
+			<Metadata name="AccumulationRegister.РегистрПредметов.Resource.Количество" id="f074d462-7023-4358-824b-6fb980853493"/>
+		</Metadata>
+		<Metadata name="AccumulationRegister.РегистрПредметов.Form.ФормаВыбора" id="63777361-3053-4c43-b111-77f5be1a80be" configVersion="f8522e78e4c243409e7706cf136efb8100000000"/>
+		<Metadata name="AccumulationRegister.РегистрПредметов.Form.ФормаВыбора.Form" id="63777361-3053-4c43-b111-77f5be1a80be.0" configVersion="43ef1ce12d3c31498fb782c7de82ce3600000000"/>
+		<Metadata name="AccumulationRegister.РегистрПредметов.Form.ФормаИтогов" id="83072d65-b5bf-43a4-b051-fe57fe123281" configVersion="499d60dc95e4044c8adb950c45b6429000000000"/>
+		<Metadata name="AccumulationRegister.РегистрПредметов.Form.ФормаИтогов.Form" id="83072d65-b5bf-43a4-b051-fe57fe123281.0" configVersion="457f2403050b4d4785fa45f824b996c500000000"/>
+		<Metadata name="AccumulationRegister.РегистрПредметов.Form.ФормаСписка" id="fb9427e5-2b81-49ef-a06c-8525398c1b4b" configVersion="0e5745fa6368094891f911fc8e18091f00000000"/>
+		<Metadata name="AccumulationRegister.РегистрПредметов.Form.ФормаСписка.Form" id="fb9427e5-2b81-49ef-a06c-8525398c1b4b.0" configVersion="7a93a05e2ac89f4489c0f13fb42f4aba00000000"/>
+		<Metadata name="Catalog.Враги" id="4ed6a712-b188-4785-83e1-86046b9f61ac" configVersion="980ed0d1ab658b438f2044a594e2ef0600000000">
+			<Metadata name="Catalog.Враги.Attribute.ЗащитаВПроцентах" id="0d525719-e824-4756-a427-b8d782252fe5"/>
+			<Metadata name="Catalog.Враги.Attribute.Урон" id="0e3068ce-540b-496a-b9d8-e882e467397a"/>
+			<Metadata name="Catalog.Враги.Attribute.Уровень" id="1cc8e0a1-0e02-4bde-934c-9f0cf1e62117"/>
+			<Metadata name="Catalog.Враги.Attribute.Опыт" id="1f828bd7-f7b7-48cf-9bee-92491e02bb17"/>
+			<Metadata name="Catalog.Враги.Attribute.ЗащитаВЕдиницах" id="bd25126a-c16f-4b95-a288-8d05970058cc"/>
+			<Metadata name="Catalog.Враги.Attribute.Здоровье" id="c8de9d79-de0d-419d-a4a4-56aac7536fa6"/>
+		</Metadata>
+		<Metadata name="Catalog.Враги.Form.ФормаСписка" id="efe6569a-305c-4f4e-a2af-820309c93632" configVersion="e3f4c668fb9f404caea7de5d0fc2a6b700000000"/>
+		<Metadata name="Catalog.Враги.Form.ФормаСписка.Form" id="efe6569a-305c-4f4e-a2af-820309c93632.0" configVersion="2e8f47d55eeeb04d96100bbf8c05dc0f00000000"/>
+		<Metadata name="Catalog.Враги.Form.ФормаЭлемента" id="12d9c331-cc79-4357-ae29-b665a3bd32d8" configVersion="8b8aeaf42786e34ba6efaaef9406e49500000000"/>
+		<Metadata name="Catalog.Враги.Form.ФормаЭлемента.Form" id="12d9c331-cc79-4357-ae29-b665a3bd32d8.0" configVersion="78852c4b7de38e4da245e19b2dd607a200000000"/>
+		<Metadata name="Catalog.Игроки" id="20f26315-1ca6-4d95-b4ac-22045ccc8d2d" configVersion="065de547429b5c4aaae5d394425a18a900000000"/>
+		<Metadata name="Catalog.Игроки.Form.ФормаСписка" id="5484bd1f-3695-43e7-a557-5482d741f501" configVersion="51f62db571b87d468349c61f1eb6bced00000000"/>
+		<Metadata name="Catalog.Игроки.Form.ФормаСписка.Form" id="5484bd1f-3695-43e7-a557-5482d741f501.0" configVersion="a02265b522f70742a23b9addfd165d9a00000000"/>
+		<Metadata name="Catalog.Игроки.Form.ФормаЭлемента" id="f052afc7-fe31-4d92-b7bb-521e6ffbeab0" configVersion="0260145626fe0c4b839661a3236e1ada00000000"/>
+		<Metadata name="Catalog.Игроки.Form.ФормаЭлемента.Form" id="f052afc7-fe31-4d92-b7bb-521e6ffbeab0.0" configVersion="bba00350f5b1904ca45e09cd955abb9b00000000"/>
+		<Metadata name="Catalog.Игроки.ObjectModule" id="20f26315-1ca6-4d95-b4ac-22045ccc8d2d.0" configVersion="446e22c78f43ca47a4991f66eb23706400000000"/>
+		<Metadata name="Catalog.Локации" id="ae47c42b-301b-4050-8e51-71382777fa08" configVersion="1c8675db5c6efc43854834617d5a8ffa00000000"/>
+		<Metadata name="Catalog.Предметы" id="d2ac39f4-5f2f-4ac2-bab4-7e57eb0d73aa" configVersion="e8905fbe06be8640999c99282e5c452900000000">
+			<Metadata name="Catalog.Предметы.TabularSection.ТабличнаяЧасть1" id="1ca87c9c-b48a-4551-ab14-ae47ee344dc9"/>
+			<Metadata name="Catalog.Предметы.Attribute.Экипировка" id="2184d9c7-20ea-4ad6-80f1-0f8a4bd4f79b"/>
+			<Metadata name="Catalog.Предметы.Attribute.ТипПредмета" id="5eed8d21-097b-4a01-9363-28a57c787dbf"/>
+			<Metadata name="Catalog.Предметы.Attribute.КатегорияПредмета" id="6286545c-a85f-4d43-9123-346eac3a8c42"/>
+		</Metadata>
+		<Metadata name="Catalog.Предметы.Form.ФормаВыбора" id="45b666d4-5a24-4747-98d4-0cc93f977726" configVersion="3f91e584211c7948ae6f0bd824283f0d00000000"/>
+		<Metadata name="Catalog.Предметы.Form.ФормаВыбора.Form" id="45b666d4-5a24-4747-98d4-0cc93f977726.0" configVersion="625f83f07bcb3b4896b373049b9ebc9600000000"/>
+		<Metadata name="Catalog.Предметы.Form.ФормаСписка" id="68abe2bd-f803-4081-b229-147300306438" configVersion="aca35b349d3d3e48be6964bbae55537900000000"/>
+		<Metadata name="Catalog.Предметы.Form.ФормаСписка.Form" id="68abe2bd-f803-4081-b229-147300306438.0" configVersion="a10bb0f50c1f7343a0fdb918fb9dca1c00000000"/>
+		<Metadata name="Catalog.Предметы.Form.ФормаЭлемента" id="d3dc1b49-5689-4f67-a95a-c3dcde6683a6" configVersion="4d32c06754c7044db6ad9a150feabe4700000000"/>
+		<Metadata name="Catalog.Предметы.Form.ФормаЭлемента.Form" id="d3dc1b49-5689-4f67-a95a-c3dcde6683a6.0" configVersion="2b048e4237bee943915af6944440e31f00000000"/>
+		<Metadata name="Catalog.РецептыСоздания" id="b902e4cf-683c-4d63-8982-3c0339273734" configVersion="64b9f26b74016842ab9cb20ad144111d00000000">
+			<Metadata name="Catalog.РецептыСоздания.Attribute.КоличествоРезультата" id="1c1bf2e3-5ac2-4b71-acc4-82e914979e86"/>
+			<Metadata name="Catalog.РецептыСоздания.TabularSection.Материалы" id="2620fad9-f567-4397-8586-df3de437be77"/>
+			<Metadata name="Catalog.РецептыСоздания.TabularSection.Материалы.Attribute.Материал" id="2fd9fdec-1310-4e09-97ac-a30c58c319f5"/>
+			<Metadata name="Catalog.РецептыСоздания.Attribute.Продукт" id="53767142-f796-443f-ace8-68336ee9a071"/>
+			<Metadata name="Catalog.РецептыСоздания.TabularSection.Материалы.Attribute.Количество" id="90baf448-014a-4f1b-801e-8fcb6563fe8c"/>
+		</Metadata>
+		<Metadata name="Catalog.РецептыСоздания.Form.ФормаВыбора" id="75395b19-fcfb-4d36-a0de-1b6108b27a6c" configVersion="55ba25b28ac47e4fb35e994eb64b6ea400000000"/>
+		<Metadata name="Catalog.РецептыСоздания.Form.ФормаВыбора.Form" id="75395b19-fcfb-4d36-a0de-1b6108b27a6c.0" configVersion="24f1bbe93413e3419d1d1df5cd24990c00000000"/>
+		<Metadata name="Catalog.РецептыСоздания.Form.ФормаСписка" id="c8c1d4ad-d004-4e3d-8328-53778bb01672" configVersion="d0e504cb3c6f7c4f8bc62ca1495e85b500000000"/>
+		<Metadata name="Catalog.РецептыСоздания.Form.ФормаСписка.Form" id="c8c1d4ad-d004-4e3d-8328-53778bb01672.0" configVersion="e904ae4dba0bbf43b4a6a8379d7b441700000000"/>
+		<Metadata name="Catalog.РецептыСоздания.Form.ФормаСписка1" id="924bc8c9-16f3-42bb-a614-da1af720a697" configVersion="fa8fc8f8ed42404cabfd0b67d0bef39f00000000"/>
+		<Metadata name="Catalog.РецептыСоздания.Form.ФормаСписка1.Form" id="924bc8c9-16f3-42bb-a614-da1af720a697.0" configVersion="a273e14b4ce6b842b7f46f65fe390b0300000000"/>
+		<Metadata name="Catalog.События" id="52aaa0cd-e849-40be-8cb9-c1a0fb22b104" configVersion="caa00e5f94a3a947ab3ae0d0c72fd48100000000">
+			<Metadata name="Catalog.События.Attribute.УровеньСобытия" id="2a50ed7a-2769-44f7-b558-d48a6dfd3e8f"/>
+			<Metadata name="Catalog.События.Attribute.ТипСобытия" id="f9e7edce-6061-4574-8163-f1ef9f725594"/>
+		</Metadata>
+		<Metadata name="ChartOfCharacteristicTypes.ВидыПараметровЛокации" id="6fc48f38-6e2d-422d-bcfb-d3dc120362fe" configVersion="0dd66eb572939148acf8bf0b4458e2b800000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ВидыПараметровСобытий" id="24c7cf4f-377e-4d52-85ff-d2a1cd4a20aa" configVersion="9fcee06d2e6134448f3e6cc48521826300000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ВидыХарактеристикИгроков" id="2da5d0f2-5063-4ed3-8080-8e4bca2cd777" configVersion="619b2048c8b9d34bbdbdb516e05e3f4900000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ВидыХарактеристикИгроков.Form.ФормаЭлемента" id="387aff92-b262-49ef-8d61-9d674e33d4a6" configVersion="290cb5b10b87f843a8a1c782f961951600000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ВидыХарактеристикИгроков.Form.ФормаЭлемента.Form" id="387aff92-b262-49ef-8d61-9d674e33d4a6.0" configVersion="e764c30f1ef4ea4a911620ea5f9c4a0100000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ВидыХарактеристикПредметов" id="4afb3358-e336-4dba-b1a8-2c24193a8b4f" configVersion="a05034bc0899fe44b26cca1cee76717a00000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ВидыХарактеристикПредметов.Form.ФормаЭлемента" id="4de6c29c-62ba-4cd0-add8-b176f91e200e" configVersion="f652d460ae415740ab0441feaab312ab00000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ВидыХарактеристикПредметов.Form.ФормаЭлемента.Form" id="4de6c29c-62ba-4cd0-add8-b176f91e200e.0" configVersion="b15b2e85229fa34bb4c153a070effb6b00000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ВидыХарактеристикСуществ" id="52e8682d-1292-4407-b5df-d9b9c15ed7c7" configVersion="a95240100b1d9448862e6db1730930e400000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ВидыХарактеристикСуществ.AdditionalIndexes" id="52e8682d-1292-4407-b5df-d9b9c15ed7c7.17" configVersion="a92f24c49ebd6440b0fe8d5478137c3e00000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ВидыХарактеристикСуществ.Form.ФормаЭлемента" id="1af68095-16fd-4beb-9161-8b382cdcee44" configVersion="281deb59562c55468e37f76b8e77f35500000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ВидыХарактеристикСуществ.Form.ФормаЭлемента.Form" id="1af68095-16fd-4beb-9161-8b382cdcee44.0" configVersion="29fc9381bc4da84fb3f8c6c741c452f600000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ВидыХарактеристикСуществ.Form.ФормаЭлемента.Help" id="1af68095-16fd-4beb-9161-8b382cdcee44.1" configVersion="713f9f61363f764f981e7c30fa824e5d00000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ВидыХарактеристикСуществ.Help" id="52e8682d-1292-4407-b5df-d9b9c15ed7c7.5" configVersion="2cda156ac1a4fd4bb2831f4ff35fc2fb00000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ВидыХарактеристикСуществ.ManagerModule" id="52e8682d-1292-4407-b5df-d9b9c15ed7c7.16" configVersion="673143534b6d234b8c0404173132d46900000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ВидыХарактеристикСуществ.ObjectModule" id="52e8682d-1292-4407-b5df-d9b9c15ed7c7.15" configVersion="d2bee722fc57c341b0834fb3f0575b2900000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ВидыХарактеристикСуществ.Predefined" id="52e8682d-1292-4407-b5df-d9b9c15ed7c7.7" configVersion="fa41592c7e3a24498bfa48db9ca949b900000000"/>
+		<Metadata name="CommonForm.Игра" id="c36aea74-2ddd-4a6c-bf9c-cb96c6abc15f" configVersion="618f87947ebed747a4f3f4b18d2ab7de00000000"/>
+		<Metadata name="CommonForm.Игра.Form" id="c36aea74-2ddd-4a6c-bf9c-cb96c6abc15f.0" configVersion="72a5442374d606468ba63aa280cf1f2600000000"/>
+		<Metadata name="CommonForm.Играть" id="a8a5c4d8-be84-4af3-955a-41d591c8cc67" configVersion="740600d9798cbe4da8d4debed059041600000000"/>
+		<Metadata name="CommonForm.Играть.Form" id="a8a5c4d8-be84-4af3-955a-41d591c8cc67.0" configVersion="0bf132f98d0c44479933968fb6b980dd00000000"/>
+		<Metadata name="CommonForm.Инвентарь" id="4851412d-38b6-4065-8070-b17009cb4ecb" configVersion="3e085cc415324140807bca5554fd6d9600000000"/>
+		<Metadata name="CommonForm.Инвентарь.Form" id="4851412d-38b6-4065-8070-b17009cb4ecb.0" configVersion="bf1fbbbebbba5c4eb64850d60e19f29f00000000"/>
+		<Metadata name="CommonForm.Настройки" id="549a5a88-b0a8-4551-8622-5fad3880b539" configVersion="c1fa348e4a6f304da0a47f7b4cc9a7e700000000"/>
+		<Metadata name="CommonForm.Настройки.Form" id="549a5a88-b0a8-4551-8622-5fad3880b539.0" configVersion="7dd31a7a0ca9a84e933a53e464efa02000000000"/>
+		<Metadata name="CommonForm.События" id="8a649dc0-36d1-491a-abcc-a69da6488c1b" configVersion="dd16a0854ff59946a4bd8ecb0e49472000000000"/>
+		<Metadata name="CommonForm.События.Form" id="8a649dc0-36d1-491a-abcc-a69da6488c1b.0" configVersion="ef6ea9c65423f840bce8c9462687847400000000"/>
+		<Metadata name="CommonModule.ОбработкаИгрока" id="af3b1dd0-e24d-48d9-9d5c-b9ca98c903ee" configVersion="fe6a123f1447154cb835d2f9b15b5a4a00000000"/>
+		<Metadata name="CommonModule.ОбработкаИгрока.Module" id="af3b1dd0-e24d-48d9-9d5c-b9ca98c903ee.0" configVersion="7a3e0857771dd945988ffe499a8b680600000000"/>
+		<Metadata name="CommonModule.ОбработкаСущества" id="f0e29c6c-3441-4527-8b68-a370247c71d7" configVersion="4914da1fff49b74c94ccde21a6ddd12f00000000"/>
+		<Metadata name="CommonModule.ОбработкаСущества.Module" id="f0e29c6c-3441-4527-8b68-a370247c71d7.0" configVersion="f526cf5a75bb924da73359e37cac9ada00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="eda4a714-adcf-488a-a38a-53fe085ea449" configVersion="46b2596c9a93614292a7039080d369cf00000000"/>
+		<Metadata name="Document.Заглушка" id="eea25aaf-152f-4bc4-9d7f-2995b469da88" configVersion="c743c31594ca2f418a61e2dcb2ac653b00000000">
+			<Metadata name="Document.Заглушка.Attribute.Игрок" id="4ade5547-58e7-463d-974a-9103ddb5e2f7"/>
+			<Metadata name="Document.Заглушка.Attribute.Количество" id="74dd884a-9dba-4193-b97d-ae2876dbdda3"/>
+			<Metadata name="Document.Заглушка.Attribute.Предмет" id="c6eb91b3-1573-4537-ac70-6e5aa251fba6"/>
+		</Metadata>
+		<Metadata name="Document.СозданиеПредмета" id="24d9c59e-2ba8-48c3-b206-e69200beed5f" configVersion="51f3de43a777f545a05488606da4239700000000">
+			<Metadata name="Document.СозданиеПредмета.TabularSection.Материалы" id="0a02fd98-14b3-4120-826d-ae686eaf9fa4"/>
+			<Metadata name="Document.СозданиеПредмета.TabularSection.Материалы.Attribute.Материал" id="1d85ff92-6b39-47a4-aad6-d2ae74a1a4db"/>
+			<Metadata name="Document.СозданиеПредмета.Attribute.Рецепт" id="90280983-79f6-4eee-9dd9-5b52e65da4d8"/>
+			<Metadata name="Document.СозданиеПредмета.TabularSection.Материалы.Attribute.Количество" id="a5ea8dcd-81f5-4518-9338-3c031403bf78"/>
+			<Metadata name="Document.СозданиеПредмета.Attribute.Игрок" id="d366a2fb-7ccb-48e0-94b6-138a2e073cac"/>
+		</Metadata>
+		<Metadata name="Document.СозданиеПредмета.Form.Форма" id="a6135add-3d69-48ad-9599-3c53ddf757c0" configVersion="3bc30049e2bc06448da4e230f84baf0a00000000"/>
+		<Metadata name="Document.СозданиеПредмета.Form.Форма.Form" id="a6135add-3d69-48ad-9599-3c53ddf757c0.0" configVersion="30676602d7a7a54391ddc7760361083000000000"/>
+		<Metadata name="Document.СозданиеПредмета.Form.ФормаСоздания" id="3fd31605-f5da-4dca-a307-0e774b754d7d" configVersion="b5a77c724fbe424f981e994b78921a5e00000000"/>
+		<Metadata name="Document.СозданиеПредмета.Form.ФормаСоздания.Form" id="3fd31605-f5da-4dca-a307-0e774b754d7d.0" configVersion="9dffc38b06f46d488e4a9abc90ec94a400000000"/>
+		<Metadata name="Document.СозданиеПредмета.ObjectModule" id="24d9c59e-2ba8-48c3-b206-e69200beed5f.0" configVersion="d65dc102f8e3f444b8540dde7be07cc800000000"/>
+		<Metadata name="Enum.ВидыЭкипировки" id="8d89ef38-c067-4dfd-b862-9a442d1051ef" configVersion="ceae1d5975b9b942aa3f2f35cdccb58a00000000">
+			<Metadata name="Enum.ВидыЭкипировки.EnumValue.Ожерелье" id="0fc1faf6-a6c8-4cfc-a760-dde89a0ad35f"/>
+			<Metadata name="Enum.ВидыЭкипировки.EnumValue.Оружие" id="1fdc2e00-7513-4b6b-b7dc-2da9eab2c366"/>
+			<Metadata name="Enum.ВидыЭкипировки.EnumValue.Щит" id="32b31a16-e581-4b98-a396-78efd692b46d"/>
+			<Metadata name="Enum.ВидыЭкипировки.EnumValue.Ботинки" id="41c2a858-967c-4f42-8e73-20695cb8b041"/>
+			<Metadata name="Enum.ВидыЭкипировки.EnumValue.Нагрудник" id="4c0b6517-043d-4b85-8332-a37889559a1f"/>
+			<Metadata name="Enum.ВидыЭкипировки.EnumValue.Кольцо" id="4cab1730-aa11-44f1-b7ef-26d5845db4f3"/>
+			<Metadata name="Enum.ВидыЭкипировки.EnumValue.Расходники" id="94179f89-bad1-4087-8975-0f6ed2ed93ce"/>
+			<Metadata name="Enum.ВидыЭкипировки.EnumValue.Штаны" id="afe5dff4-2e2f-4103-b69f-cf8e4eac9221"/>
+			<Metadata name="Enum.ВидыЭкипировки.EnumValue.Шлем" id="df5ee912-e953-4c87-8a6e-92a4450ecd25"/>
+		</Metadata>
+		<Metadata name="Enum.ВидыЭкипировки.Form.ФормаВыбора" id="4ba6ef2c-0adb-44dc-aae9-2bede1c6243b" configVersion="ba13586a816bf74ebb3b72298a2e9a5f00000000"/>
+		<Metadata name="Enum.ВидыЭкипировки.Form.ФормаВыбора.Form" id="4ba6ef2c-0adb-44dc-aae9-2bede1c6243b.0" configVersion="b9e0d5684d7b7541b4e1c411e760e87e00000000"/>
+		<Metadata name="Enum.КатегорияПредмета" id="45319b94-a2fd-4c4e-878c-f628a01a7b04" configVersion="4040e1c9b5fe64428b2150e151316c2000000000">
+			<Metadata name="Enum.КатегорияПредмета.EnumValue.ТряпичныйСет" id="1b252d10-c91b-408f-8901-0cddd6034c3b"/>
+			<Metadata name="Enum.КатегорияПредмета.EnumValue.Материалы" id="63f8f549-3d6b-4a0a-ae74-45f998552fe7"/>
+			<Metadata name="Enum.КатегорияПредмета.EnumValue.КожанныйСет" id="7486149f-b7e0-451d-baf0-acde72ee813f"/>
+			<Metadata name="Enum.КатегорияПредмета.EnumValue.Экипировка" id="9589fac2-59a4-492d-b4d3-db869680e2ed"/>
+			<Metadata name="Enum.КатегорияПредмета.EnumValue.Расходники" id="b06f04ed-95c0-4af6-8813-0c322e3f0726"/>
+			<Metadata name="Enum.КатегорияПредмета.EnumValue.ДеревянныйСет" id="ce03d921-aecb-4a36-ac34-409132b23c5a"/>
+			<Metadata name="Enum.КатегорияПредмета.EnumValue.Оружие" id="e90dc07a-bd2d-47bb-9166-c6252b984b99"/>
+		</Metadata>
+		<Metadata name="Enum.ТипСобытия" id="4e5208ef-1226-4424-9e8e-7c91bc113542" configVersion="61396ad5ede25542b90cbc78d76b0b3100000000">
+			<Metadata name="Enum.ТипСобытия.EnumValue.ПоискВрагов" id="1c36bacb-7176-4e54-afca-1367f6bf262c"/>
+			<Metadata name="Enum.ТипСобытия.EnumValue.Случайное" id="5fd2ca11-718e-4e02-9565-181e997cc946"/>
+			<Metadata name="Enum.ТипСобытия.EnumValue.ПоискПредметов" id="a22bd64f-2f5b-4c77-9911-2b5aeb11530f"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ДропСМоба" id="3f75381c-4bc6-439c-ab9e-302b53680a05" configVersion="a2a3088c570e3540ae78bfdc39cf9b5b00000000">
+			<Metadata name="InformationRegister.ДропСМоба.Dimension.Враг" id="018de9e5-ca20-498e-9b65-b30af868d4fb"/>
+			<Metadata name="InformationRegister.ДропСМоба.Resource.Количество" id="22dda369-8907-4563-a6bd-a581ec8cf90a"/>
+			<Metadata name="InformationRegister.ДропСМоба.Dimension.Предмет" id="b2efbce7-5bac-4457-b45a-a3d2a715b1b1"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ЗначениеХарактеристикИгроков" id="2abfe378-7034-4076-98c0-f7064cc08e8b" configVersion="6b3b54b0c657984f922915499934af2300000000">
+			<Metadata name="InformationRegister.ЗначениеХарактеристикИгроков.Dimension.Характеристика" id="a3f650a2-536f-4d3c-a95e-6f6d988b3690"/>
+			<Metadata name="InformationRegister.ЗначениеХарактеристикИгроков.Dimension.Игрок" id="b02f7b5d-6d36-4d3a-8d66-865fa817bb2e"/>
+			<Metadata name="InformationRegister.ЗначениеХарактеристикИгроков.Resource.Значение" id="ff28441b-de33-499a-bcc4-ed7b5350d4b6"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ЗначениеХарактеристикИгроков.Form.ФормаСписка" id="3a0be4d6-c3df-4c7a-adde-d8de4220122b" configVersion="51afb89765bcfb439c2dff6d66c9704900000000"/>
+		<Metadata name="InformationRegister.ЗначениеХарактеристикИгроков.Form.ФормаСписка.Form" id="3a0be4d6-c3df-4c7a-adde-d8de4220122b.0" configVersion="dc1ebb4a7e3c2b46a1fd2206938d565300000000"/>
+		<Metadata name="InformationRegister.РегистрНастроек" id="43af36af-c5e7-4526-8435-2e71643bad69" configVersion="c64c7420abf19645bbf875214944ccb500000000">
+			<Metadata name="InformationRegister.РегистрНастроек.Dimension.Название" id="50b66379-66f8-4498-9ef0-ba29801d3db0"/>
+			<Metadata name="InformationRegister.РегистрНастроек.Resource.Значение" id="54d6e5e0-1809-4a7d-bef0-07018dbf679d"/>
+		</Metadata>
+		<Metadata name="InformationRegister.СведенияЛокаций" id="69713dd2-cdc0-47fb-ab12-a1b65c3fc71c" configVersion="0e89c845fe98aa49b8dbdaaf546b0de100000000">
+			<Metadata name="InformationRegister.СведенияЛокаций.Resource.ЗначениеПараметра" id="08134081-004d-4ffb-a185-715cc0952177"/>
+			<Metadata name="InformationRegister.СведенияЛокаций.Dimension.Параметр" id="a7c7503f-7b19-494c-8e21-96b93c53680b"/>
+			<Metadata name="InformationRegister.СведенияЛокаций.Dimension.Локация" id="f9944b46-159d-4b69-840c-3e7ea4125eca"/>
+		</Metadata>
+		<Metadata name="InformationRegister.СведенияСобытий" id="85a5a462-e461-46d8-a47a-34778e1ad9f9" configVersion="fe3cdb77d623a542b5824518aec69e5f00000000">
+			<Metadata name="InformationRegister.СведенияСобытий.Dimension.Событие" id="202dceaf-bfc0-446b-a230-827c5d719f4c"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ХарактеристикиЭкипировки" id="f50b4114-49c5-42c5-9a1d-3808714ddefa" configVersion="b76a1f64eda06e488e59f9201ca7ea2700000000">
+			<Metadata name="InformationRegister.ХарактеристикиЭкипировки.Resource.Значение" id="26ec087f-2054-4f4d-b4c1-a78cac977f3e"/>
+			<Metadata name="InformationRegister.ХарактеристикиЭкипировки.Dimension.Характеристика" id="58dd813d-439f-4529-bee6-b5f686a3af26"/>
+			<Metadata name="InformationRegister.ХарактеристикиЭкипировки.Dimension.ПредметЭкипировки" id="8fdc874b-f237-43f8-bb9e-cd4cd04f7ea9"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ХарактеристикиЭкипировки.Form.ФормаЗаписи" id="c0f101cb-60b9-4b65-8251-cbd4694a0648" configVersion="3a24a46142c8634eb26dd7dd69db2e5c00000000"/>
+		<Metadata name="InformationRegister.ХарактеристикиЭкипировки.Form.ФормаЗаписи.Form" id="c0f101cb-60b9-4b65-8251-cbd4694a0648.0" configVersion="63e01da9e0317f44ade28631abca8d1900000000"/>
+		<Metadata name="InformationRegister.ХарактеристикиЭкипировки.Form.ФормаСписка" id="fefc5a45-010a-4698-9b76-cd51fdb7221b" configVersion="f5a37e1ea4d51d44bdf0b6885c5507b500000000"/>
+		<Metadata name="InformationRegister.ХарактеристикиЭкипировки.Form.ФормаСписка.Form" id="fefc5a45-010a-4698-9b76-cd51fdb7221b.0" configVersion="c62af3c0653eaa438874f63060f9803100000000"/>
+		<Metadata name="InformationRegister.ЭкипировкаПерсонажей" id="f5793329-c764-4571-a01e-84d51a155fca" configVersion="6975fd401ac4cb458ea8f6fe213f209900000000">
+			<Metadata name="InformationRegister.ЭкипировкаПерсонажей.Dimension.Экипировка" id="0a7f3fb6-4c75-4e33-bbd0-11e997923d4f"/>
+			<Metadata name="InformationRegister.ЭкипировкаПерсонажей.Resource.Предмет" id="108b2da9-c5b1-4b3f-aaf2-7a7421589598"/>
+			<Metadata name="InformationRegister.ЭкипировкаПерсонажей.Dimension.Игрок" id="7f6c571b-dc11-4b2d-966e-74d99c0cedf2"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ЭкипировкаПерсонажей.Form.ФормаВыбора" id="15a2e7db-4805-4b51-91fa-a61adfaea93f" configVersion="05f6d35563c82e4a8cf3f0bc05c4d7ae00000000"/>
+		<Metadata name="InformationRegister.ЭкипировкаПерсонажей.Form.ФормаВыбора.Form" id="15a2e7db-4805-4b51-91fa-a61adfaea93f.0" configVersion="6c63163a1924124b8bcc08c20c3947b400000000"/>
+		<Metadata name="InformationRegister.ЭкипировкаПерсонажей.Form.ФормаВыбора2" id="696b8ff6-1beb-408f-a75e-c2f647e344ce" configVersion="0787f577f053134c8b6c203db6674f0100000000"/>
+		<Metadata name="InformationRegister.ЭкипировкаПерсонажей.Form.ФормаВыбора2.Form" id="696b8ff6-1beb-408f-a75e-c2f647e344ce.0" configVersion="2b79e12275abbb45a80d99cb2d82112100000000"/>
+		<Metadata name="InformationRegister.ЭкипировкаПерсонажей.Form.ФормаЗаписи" id="93324542-1cca-4983-9730-5ab231054250" configVersion="6e27f1bd06f9c44fa34a13d53bec698100000000"/>
+		<Metadata name="InformationRegister.ЭкипировкаПерсонажей.Form.ФормаЗаписи.Form" id="93324542-1cca-4983-9730-5ab231054250.0" configVersion="666d644602ebcd4a87460a0a95bf2a3d00000000"/>
+		<Metadata name="InformationRegister.ЭкипировкаПерсонажей.Form.ФормаСписка" id="4fe29a72-b202-4084-bb72-7140211782d6" configVersion="2a35d83151cf5e478dc3a76e1a5153e400000000"/>
+		<Metadata name="InformationRegister.ЭкипировкаПерсонажей.Form.ФормаСписка.Form" id="4fe29a72-b202-4084-bb72-7140211782d6.0" configVersion="6962dc10ed10844d91a308af771f626900000000"/>
+		<Metadata name="Language.Русский" id="09bee5d3-e99a-4e73-83ed-f457b5b017be" configVersion="6791d5428435284399b1a5a1569bc9cb00000000"/>
+		<Metadata name="Report.Инвентарь" id="432b7c77-5d3a-425f-8559-c8b6801c3e02" configVersion="e434492502adc34a96c6c7166487372d00000000"/>
+		<Metadata name="Report.Инвентарь.Template.ОсновнаяСхемаКомпоновкиДанных" id="31719e9e-cfb2-48d7-a649-cc7f8fbdfc9d" configVersion="cffabf28abbeee419398ead5354a323f00000000"/>
+		<Metadata name="Report.Инвентарь.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="31719e9e-cfb2-48d7-a649-cc7f8fbdfc9d.0" configVersion="19042258229e5344870202935dc4067a00000000"/>
+		<Metadata name="Subsystem.Играть" id="1affdef2-a420-4785-94ef-c87e7dc6cd24" configVersion="565783d9039a234e90706d7e17f74e7c00000000"/>
+		<Metadata name="Subsystem.Играть.CommandInterface" id="1affdef2-a420-4785-94ef-c87e7dc6cd24.1" configVersion="0f33f366e9791b4eb8064d33d1f2f08100000000"/>
+		<Metadata name="Subsystem.Игроки" id="df312c16-7b46-4221-b8ea-e5709692572e" configVersion="f60d766f0f703448b41d97b2ee4c3d0000000000"/>
+		<Metadata name="Subsystem.Игроки.CommandInterface" id="df312c16-7b46-4221-b8ea-e5709692572e.1" configVersion="ae09249165c75b4d802adc3dada2574b00000000"/>
+		<Metadata name="Subsystem.События" id="838cb292-e1ec-4b36-957d-0b4c7e99ba4c" configVersion="3d2ab402278fc7489fa9e13080bbf31200000000"/>
+		<Metadata name="Subsystem.Существа" id="3c825a41-1081-40fb-8ed1-21fa51bbf8a5" configVersion="467d60d2cc0f3541816e4f7e1b5240f600000000"/>
+		<Metadata name="Subsystem.Существа.CommandInterface" id="3c825a41-1081-40fb-8ed1-21fa51bbf8a5.1" configVersion="04740ab5db16b345a553dc7e9baba36600000000"/>
+		<Metadata name="Subsystem.Техническое" id="91a5d279-c4d7-451c-8a6c-c2b9c22a6d51" configVersion="2fd0b0c312fd8e4c9150ff84684c910600000000"/>
+		<Metadata name="Subsystem.Техническое.CommandInterface" id="91a5d279-c4d7-451c-8a6c-c2b9c22a6d51.1" configVersion="132da0b6e8b3084d8110bcdeaed22b1900000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<Group>AlwaysHorizontal</Group>
+	<Customizable>false</Customizable>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Создание" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создание</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создание</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="СозданиеРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<Table name="РеквизитРецептыСоздания" id="24">
+					<Representation>List</Representation>
+					<ReadOnly>true</ReadOnly>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>РеквизитРецептыСоздания</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="РеквизитРецептыСозданияКонтекстноеМеню" id="25"/>
+					<AutoCommandBar name="РеквизитРецептыСозданияКоманднаяПанель" id="26">
+						<Autofill>false</Autofill>
+						<ChildItems>
+							<Button name="РеквизитРецептыСозданияСоздать" id="68">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.Создать</CommandName>
+								<ExtendedTooltip name="РеквизитРецептыСозданияСоздатьРасширеннаяПодсказка" id="69"/>
+							</Button>
+						</ChildItems>
+					</AutoCommandBar>
+					<ExtendedTooltip name="РеквизитРецептыСозданияРасширеннаяПодсказка" id="27"/>
+					<SearchStringAddition name="РеквизитРецептыСозданияСтрокаПоиска" id="28">
+						<AdditionSource>
+							<Item>РеквизитРецептыСоздания</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="РеквизитРецептыСозданияСтрокаПоискаКонтекстноеМеню" id="29"/>
+						<ExtendedTooltip name="РеквизитРецептыСозданияСтрокаПоискаРасширеннаяПодсказка" id="30"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="РеквизитРецептыСозданияСостояниеПросмотра" id="31">
+						<AdditionSource>
+							<Item>РеквизитРецептыСоздания</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="РеквизитРецептыСозданияСостояниеПросмотраКонтекстноеМеню" id="32"/>
+						<ExtendedTooltip name="РеквизитРецептыСозданияСостояниеПросмотраРасширеннаяПодсказка" id="33"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="РеквизитРецептыСозданияУправлениеПоиском" id="34">
+						<AdditionSource>
+							<Item>РеквизитРецептыСоздания</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="РеквизитРецептыСозданияУправлениеПоискомКонтекстноеМеню" id="35"/>
+						<ExtendedTooltip name="РеквизитРецептыСозданияУправлениеПоискомРасширеннаяПодсказка" id="36"/>
+					</SearchControlAddition>
+					<Events>
+						<Event name="Selection">Реквизит1Выбор</Event>
+					</Events>
+					<ChildItems>
+						<InputField name="РеквизитРецептыСозданияПредмет" id="37">
+							<DataPath>РеквизитРецептыСоздания.Предмет</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="РеквизитРецептыСозданияПредметКонтекстноеМеню" id="38"/>
+							<ExtendedTooltip name="РеквизитРецептыСозданияПредметРасширеннаяПодсказка" id="39"/>
+						</InputField>
+						<InputField name="РеквизитРецептыСозданияКоличество" id="40">
+							<DataPath>РеквизитРецептыСоздания.Количество</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="РеквизитРецептыСозданияКоличествоКонтекстноеМеню" id="41"/>
+							<ExtendedTooltip name="РеквизитРецептыСозданияКоличествоРасширеннаяПодсказка" id="42"/>
+						</InputField>
+						<InputField name="РеквизитРецептыСозданияМатериалыСтрокой" id="43">
+							<DataPath>РеквизитРецептыСоздания.МатериалыСтрокой</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="РеквизитРецептыСозданияМатериалыСтрокойКонтекстноеМеню" id="44"/>
+							<ExtendedTooltip name="РеквизитРецептыСозданияМатериалыСтрокойРасширеннаяПодсказка" id="45"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+				<Table name="РеквизитРецептыСозданияМатериалы1" id="49">
+					<Representation>List</Representation>
+					<ReadOnly>true</ReadOnly>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Items.РеквизитРецептыСоздания.CurrentData.Материалы</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="РеквизитРецептыСозданияМатериалы1КонтекстноеМеню" id="50"/>
+					<AutoCommandBar name="РеквизитРецептыСозданияМатериалы1КоманднаяПанель" id="51">
+						<Autofill>false</Autofill>
+					</AutoCommandBar>
+					<ExtendedTooltip name="РеквизитРецептыСозданияМатериалы1РасширеннаяПодсказка" id="52"/>
+					<SearchStringAddition name="РеквизитРецептыСозданияМатериалы1СтрокаПоиска" id="53">
+						<AdditionSource>
+							<Item>РеквизитРецептыСозданияМатериалы1</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="РеквизитРецептыСозданияМатериалы1СтрокаПоискаКонтекстноеМеню" id="54"/>
+						<ExtendedTooltip name="РеквизитРецептыСозданияМатериалы1СтрокаПоискаРасширеннаяПодсказка" id="55"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="РеквизитРецептыСозданияМатериалы1СостояниеПросмотра" id="56">
+						<AdditionSource>
+							<Item>РеквизитРецептыСозданияМатериалы1</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="РеквизитРецептыСозданияМатериалы1СостояниеПросмотраКонтекстноеМеню" id="57"/>
+						<ExtendedTooltip name="РеквизитРецептыСозданияМатериалы1СостояниеПросмотраРасширеннаяПодсказка" id="58"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="РеквизитРецептыСозданияМатериалы1УправлениеПоиском" id="59">
+						<AdditionSource>
+							<Item>РеквизитРецептыСозданияМатериалы1</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="РеквизитРецептыСозданияМатериалы1УправлениеПоискомКонтекстноеМеню" id="60"/>
+						<ExtendedTooltip name="РеквизитРецептыСозданияМатериалы1УправлениеПоискомРасширеннаяПодсказка" id="61"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<InputField name="РеквизитРецептыСозданияМатериалы1Материал" id="62">
+							<DataPath>Items.РеквизитРецептыСоздания.CurrentData.Материалы.Материал</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="РеквизитРецептыСозданияМатериалы1МатериалКонтекстноеМеню" id="63"/>
+							<ExtendedTooltip name="РеквизитРецептыСозданияМатериалы1МатериалРасширеннаяПодсказка" id="64"/>
+						</InputField>
+						<InputField name="РеквизитРецептыСозданияМатериалы1Количество" id="65">
+							<DataPath>Items.РеквизитРецептыСоздания.CurrentData.Материалы.Количество</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="РеквизитРецептыСозданияМатериалы1КоличествоКонтекстноеМеню" id="66"/>
+							<ExtendedTooltip name="РеквизитРецептыСозданияМатериалы1КоличествоРасширеннаяПодсказка" id="67"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Инвентарь" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Инвентарь</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Инвентарь</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ИнвентарьРасширеннаяПодсказка" id="4"/>
+			<ChildItems>
+				<Table name="РеквизитИнвентаря" id="5">
+					<Representation>List</Representation>
+					<ReadOnly>true</ReadOnly>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>РеквизитИнвентаря</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="РеквизитИнвентаряКонтекстноеМеню" id="6"/>
+					<AutoCommandBar name="РеквизитИнвентаряКоманднаяПанель" id="7">
+						<Autofill>false</Autofill>
+					</AutoCommandBar>
+					<ExtendedTooltip name="РеквизитИнвентаряРасширеннаяПодсказка" id="8"/>
+					<SearchStringAddition name="РеквизитИнвентаряСтрокаПоиска" id="9">
+						<AdditionSource>
+							<Item>РеквизитИнвентаря</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="РеквизитИнвентаряСтрокаПоискаКонтекстноеМеню" id="10"/>
+						<ExtendedTooltip name="РеквизитИнвентаряСтрокаПоискаРасширеннаяПодсказка" id="11"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="РеквизитИнвентаряСостояниеПросмотра" id="12">
+						<AdditionSource>
+							<Item>РеквизитИнвентаря</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="РеквизитИнвентаряСостояниеПросмотраКонтекстноеМеню" id="13"/>
+						<ExtendedTooltip name="РеквизитИнвентаряСостояниеПросмотраРасширеннаяПодсказка" id="14"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="РеквизитИнвентаряУправлениеПоиском" id="15">
+						<AdditionSource>
+							<Item>РеквизитИнвентаря</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="РеквизитИнвентаряУправлениеПоискомКонтекстноеМеню" id="16"/>
+						<ExtendedTooltip name="РеквизитИнвентаряУправлениеПоискомРасширеннаяПодсказка" id="17"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<InputField name="РеквизитИнвентаряПредмет" id="18">
+							<DataPath>РеквизитИнвентаря.Предмет</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="РеквизитИнвентаряПредметКонтекстноеМеню" id="19"/>
+							<ExtendedTooltip name="РеквизитИнвентаряПредметРасширеннаяПодсказка" id="20"/>
+						</InputField>
+						<InputField name="РеквизитИнвентаряКоличество" id="21">
+							<DataPath>РеквизитИнвентаря.Количество</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="РеквизитИнвентаряКоличествоКонтекстноеМеню" id="22"/>
+							<ExtendedTooltip name="РеквизитИнвентаряКоличествоРасширеннаяПодсказка" id="23"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="РеквизитИнвентаря" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реквизит инвентаря</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Предмет" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Предмет</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Предметы</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Количество" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="РеквизитТекущийИгрок" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реквизит текущий игрок</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Игроки</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="РеквизитРецептыСоздания" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реквизит рецепты создания</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Предмет" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Предмет</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Предметы</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Количество" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="МатериалыСтрокой" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Материалы строкой</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Материалы" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Материалы</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>v8:ValueTable</v8:Type>
+					</Type>
+				</Column>
+				<AdditionalColumns table="РеквизитРецептыСоздания.Материалы">
+					<Column name="Материал" id="1">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Материал</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>cfg:CatalogRef.Предметы</v8:Type>
+						</Type>
+					</Column>
+					<Column name="Количество" id="2">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Количество</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:decimal</v8:Type>
+							<v8:NumberQualifiers>
+								<v8:Digits>10</v8:Digits>
+								<v8:FractionDigits>0</v8:FractionDigits>
+								<v8:AllowedSign>Any</v8:AllowedSign>
+							</v8:NumberQualifiers>
+						</Type>
+					</Column>
+				</AdditionalColumns>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Создать" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СоздатьПродукт</Action>
+		</Command>
+	</Commands>
+</Form>

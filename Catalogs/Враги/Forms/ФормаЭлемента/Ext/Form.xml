@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<CheckBoxField name="Враг" id="25">
+			<DataPath>1/0:806cf11c-a13c-4146-943d-e2f3e5798b6e</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ВрагКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ВрагРасширеннаяПодсказка" id="27"/>
+		</CheckBoxField>
+		<InputField name="Имя" id="7">
+			<DataPath>1/0:749c7678-17bb-4286-8777-3607efe49a16</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ИмяКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ИмяРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Уровень" id="10">
+			<DataPath>Объект.Уровень</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="УровеньКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="УровеньРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="Урон" id="13">
+			<DataPath>Объект.Урон</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="УронКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="УронРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="ЗащитаВЕдиницах" id="16">
+			<DataPath>1/0:50da821b-743d-4580-b3dc-806d33a1536a</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ЗащитаВЕдиницахКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ЗащитаВЕдиницахРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="ШансУворота" id="22">
+			<DataPath>1/0:5becdf3c-b5d0-4211-b17f-515f48a27d7c</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ШансУворотаКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ШансУворотаРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<InputField name="Здоровье" id="28">
+			<DataPath>Объект.Здоровье</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ЗдоровьеКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="ЗдоровьеРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<InputField name="Защита" id="31">
+			<DataPath>Объект.ЗащитаВЕдиницах</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ЗащитаКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="ЗащитаРасширеннаяПодсказка" id="33"/>
+		</InputField>
+		<InputField name="ЗащитаВПроцентах" id="19">
+			<DataPath>Объект.ЗащитаВПроцентах</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ЗащитаВПроцентахКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ЗащитаВПроцентахРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="Опыт" id="34">
+			<DataPath>Объект.Опыт</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОпытКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="ОпытРасширеннаяПодсказка" id="36"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Враги</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
